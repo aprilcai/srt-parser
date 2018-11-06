@@ -23,7 +23,7 @@ Parser.prototype.parse = function (str, options) {
 
         var replaceLine = options.replaceLine
         var pair = str.split(lineReg)
-        pair.forEach((item, i) => {
+        pair.forEach(function (item, i) {
             var times = item.match(timeReg)[0].split(/\s+-->\s+/)
             pair[i] = item.replace(timeReg, '').replace(numberReg,'')
             if (replaceLine) {
@@ -44,4 +44,4 @@ Parser.prototype.parse = function (str, options) {
     return result
 }
 
-module.exports = Parser;
+module.exports = Parser
