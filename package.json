@@ -1,0 +1,25 @@
+{
+  "name": "srt-parser",
+  "version": "0.0.1",
+  "description": "srt file parser",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprilcai/srt-parser.git"
+  },
+  "keywords": [
+    "srt"
+  ],
+  "author": "April",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aprilcai/srt-parser/issues"
+  },
+  "homepage": "https://github.com/aprilcai/srt-parser#readme"
+}
